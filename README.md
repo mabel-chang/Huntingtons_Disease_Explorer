@@ -45,11 +45,6 @@ The study utilized mRNA sequencing of post-mortem BA5 human brain tissue samples
 * Differential expression results: GEO supplementary data
 * GSEA analysis: Performed with MSigDB C2 curated gene sets
 
-## Challenges
-During development, the major challenge was integrating standalone code into the Shiny environment.
-For example, while tableOutput worked in testing, it failed inside the Shiny framework for DE results.
-This issue was resolved by switching to DT (DataTables) for rendering interactive tables.
-
 ## Requirements
 The application was built in R using the following packages:
 * shiny
